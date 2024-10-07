@@ -1,0 +1,256 @@
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(0 43 255) !important;
+}
+h2#store {
+    font-size: 90px;
+    padding-bottom: 20px;
+  
+}
+p#apply {
+    font-size: 20px;
+    
+}
+.col-6 {
+    margin: auto !important;
+}
+button.btn.btn-secondary {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 29px;
+    background: #843aff;
+    font-size: 17px;
+}
+h2#store {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.color-b {
+    background: #d3d2d2;
+}
+img#logo {
+    width: 15%;
+}
+.col-4 {
+    text-align: center;
+    margin-top: 10% !important;
+}
+h2#gray {
+    color: #b3b3b3;
+    font-size: 40px;
+}
+h2#size {
+    font-size: 40px;
+}
+h2#p-shoes {
+    font-size: 17px;
+    padding-top: 21px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+p#\$ {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+h1#pro {
+    font-weight: 900;
+    padding-top: 10%;
+}
+img {
+    width: 100%;
+}
+img#cro-img {
+    width: 80%;
+}
+/* .col-md-6.col-12 {
+    margin: auto;
+} */
+footer {
+    background: #000000;
+    color: white;
+    padding: 5%;
+    margin-top: 13%;
+}
+ul {
+    list-style: none;
+    line-height: 43px;
+    padding-top: 12px;
+}
+p {
+    padding-top: 26px;
+}
+i.fa-brands.fa-twitter {
+    font-size: 30px;
+    padding-right: 15px;
+    color: skyblue;
+}
+i.fa-brands.fa-instagram {
+    font-size: 30px;
+    padding-right: 15px;
+    color: #ff5d79;
+}
+i.fa-brands.fa-facebook {
+    font-size: 30px;
+    padding-right: 15px;
+    color: #5290fe;
+}
+i.fa-solid.fa-phone {
+    font-size: 28px;
+    color: #01b401;
+}
+span {
+    color: red;
+}
+sidebar#rex {
+    list-style: none;
+    background: brown;
+    color: white;
+    top: 0;
+    position: absolute;
+    right: -40%;
+    bottom: 100px;
+    width: 40%;
+    transition: .5s;
+}
+span#button {
+    width: 40px;
+    height: 40px;
+    background: #000000;
+    position: absolute;
+    top: 27px;
+    right: -44px;
+    z-index: 9;
+}
+span#button:before {
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    content: "";
+    top: 14px;
+    right: 5px;
+}
+span#button:after {
+    background: rgb(255, 255, 255);
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 80%;
+    top: 22px;
+    right: 5px;
+}
+sidebar#rex.show {
+    width: 40%;
+    right: 0;
+}
+ul#content {
+    text-align: center;
+    font-size: 24px;
+}
+ul#content {
+    text-align: center;
+    font-size: 47px;
+    margin-top: 100px;
+    line-height: 66px;
+    display: flex;
+    flex-direction: column;
+}
+#popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #000000bf;
+    color: white;
+    text-align: center;
+}
+#popup {
+    display: none;
+}
+div#popup.apply {
+    display: block;
+}
+.container-1 {
+    width: 50%;
+    margin-left: 5%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 23px;
+}
+li.now {
+    width: 130px;
+    background: black;
+    color: white;
+    padding: 14px;
+}
+.main-1 {
+    box-shadow: 1px 2px 16px gray;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 39px;
+}
+p{
+    font-size: 20px;
+}
+p {
+    font-size: 24px;
+    line-height: 32px;
+}
+.tabs {
+    padding: 33px;
+}
+.tabs {
+    display: none;
+}
+.tabs.active {
+    display: block;
+}
+div#popup div#popup-content {
+    width: 280px;
+    margin: 0 auto;
+}
+li.now.active {
+    background: white;
+    color: blue;
+    border-top: 5px solid blue;
+}
+span#button.active:before {
+    transform: rotate(45deg);
+    top: 20px;
+    transition: .5s;
+}
+span#button.active::after {
+    transform: rotate(135deg);
+    top: 20px;
+    transition: .5s;
+}
+.col-lg-3.col-md-6.col-12 {
+    position: relative;
+}
+p.ptxt {
+    font-size: 14px;
+    display: none;
+}
+.col-lg-3.col-md-6.col-12 img:hover + .hovertxt {
+    position: absolute;
+    background: #000000b3;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+}
+.col-lg-3.col-md-6.col-12 img:hover + .hovertxt p.ptxt {
+    display: block;
+    color: white;
+    text-align: center;
+}
